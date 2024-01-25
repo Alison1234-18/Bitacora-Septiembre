@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+canvas {
+    border: 1px solid black;
+    
+}
+
+.controls {
+    border: 1px solid black;
+    padding: 20px; /* Agrega espacio interno alrededor del contenido */
+    margin: 20px; /* Agrega espacio externo entre el contenedor y otros elementos */
+    border-radius: 5px; /*bordes redondeados*/
+    font-size: 16px;
+}
+
+.colorful-button {
+    background-color: #4caf50;  /*color de fondo del boton */
+    color: white; /*color del texto*/
+    border: none; /*sin borde*/
+    padding: 10px 20px; /*espaciado interno del boton*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px; /*bordes redondeados*/
+    transition-duration: 0.4s;
+}
+
+.colorful-button:hover {
+    background-color: #45a049; /*cambia el color de fondo al pasar el mouse sobre el boton*/
+}

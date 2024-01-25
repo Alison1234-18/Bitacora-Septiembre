@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Dibujos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div class="controls">
+        <label for="brush-color">Color del Pincel:</label>
+        <input type="color" id="brush-color">
+        <label for="brush-size">Tamaño del Pincel:</label>
+        <select id="brush-size">
+            <option value="2">Pequeño</option>
+            <option value="5">Mediano</option>
+            <option value="10">Grande</option>
+        </select>
+    </div>
+    <button id="clearbutton" class="colorful-button">Borrar Dibujo</button>
+    <script src="funciones.js"></script>
+</body>
+</html>
